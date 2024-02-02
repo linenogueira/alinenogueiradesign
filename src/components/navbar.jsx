@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { InstagramOutlined, MenuOutlined } from '@ant-design/icons';
+import { InstagramOutlined, LinkedinOutlined, MenuOutlined } from '@ant-design/icons';
 import logo from '../../public/LOGO.png';
 import '/src/components/styles/navbar.css';
 import { Link } from 'react-router-dom';
@@ -20,25 +20,27 @@ function Navbar({ aboutRef, offerRef, portfolioRef, contactRef }) {
     }
   };
 
-
   return (
     <>
       <div className="navbar">
         <ul>
-          <Link to="/">
-            <img src={logo} alt="Aline Nogueira" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} />
-          </Link>
+          <li>
+            <Link to="/">
+              <img src={logo} alt="Logo" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} />
+            </Link>
+          </li>
           {showMenu && (
-            <Link to="/" style={{ textDecoration: 'none', color: 'black' }}><ul className="listed--menu">
-                <li onClick={() => {handleScroll(aboutRef); if (window.innerWidth < 600) setShowMenu(!showMenu)}}>About Us</li>
-                <li onClick={() => {handleScroll(portfolioRef); if (window.innerWidth < 600) setShowMenu(!showMenu)}}>Portfolio</li>
-                <li onClick={() => {handleScroll(offerRef); if (window.innerWidth < 600) setShowMenu(!showMenu)}}>Services</li>
-                <li onClick={() => {handleScroll(contactRef); if (window.innerWidth < 600) setShowMenu(!showMenu)}}>Contact</li>
+            <ul className="listed--menu">
+              <li onClick={() => {handleScroll(aboutRef); if (window.innerWidth < 600) setShowMenu(!showMenu)}}>About Us</li>
+              <li onClick={() => {handleScroll(portfolioRef); if (window.innerWidth < 600) setShowMenu(!showMenu)}}>Portfolio</li>
+              <li onClick={() => {handleScroll(offerRef); if (window.innerWidth < 600) setShowMenu(!showMenu)}}>Services</li>
+              <li onClick={() => {handleScroll(contactRef); if (window.innerWidth < 600) setShowMenu(!showMenu)}}>Contact</li>
               <li>
-                <a href="www.instagram.com/julka.cwynar" />
-                <InstagramOutlined className="instagram" />
+                <a href="https://www.linkedin.com/in/linenogueira" target="_blank" rel="noopener noreferrer">
+                  <LinkedinOutlined className="linkedin" />
+                </a>
               </li>
-            </ul></Link>
+            </ul>
           )}
           <li className="more" onClick={() => setShowMenu(!showMenu)}>
             <MenuOutlined />

@@ -2,37 +2,44 @@
     font-family: 'Manrope', sans-serif;
 }
 .navbar {
-    position: fixed;
+    position:fixed;
     display: flex;
     background-color: white;
     z-index: 2;
-    margin-top: -0.4vw;
-    height: 8vw;
+    margin-top: -0.1vw;
+    height: 6vw;
     font-weight: 900;
     padding: 0;
     width: 100%;
+   
 }
 
 
 .navbar ul {
     margin: auto;
     display: flex;
-    list-style: none;
+   
+  
 }
 
 .navbar ul li {
     font-size: 1.5vw;
     display: grid;
+   
+    margin-top: -1.4vw;
     grid-template-columns: auto;
     padding: 2.5vw;
 }
 
 .navbar ul li a {
     color: #000d2a;
+    
 }
 
 .navbar img {
-    height: 7vw;
+    height: 6vw;
+    margin-top: -1.1vw;
+   
 }
 
 
