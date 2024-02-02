@@ -1,0 +1,17 @@
+.parallax {
+    width: 100%;
+    object-fit: cover;
+    min-height: 55vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .parallax {
+        background-size: 140%;
+        min-height: 80vw;
+        background-position: top;
+    }
+}

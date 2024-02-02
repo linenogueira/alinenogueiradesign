@@ -1,0 +1,178 @@
+.project {
+    padding-top: 10vw;
+    width: 100%;
+    padding-bottom: 10vw;
+}
+
+.single--project {
+    padding: 2vw 20vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1vw;
+    z-index: -1;
+}
+
+.single--project .single--photo .image {
+    width: 20vw;
+    height: auto;
+    object-fit: cover;
+}
+
+.big--img {
+    display: block;
+    position: fixed; 
+    z-index: 4; 
+    left: 0;
+    top: 0vw;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+} 
+
+.big--img img{
+    position: relative;
+    left: 1.4vw;
+    height: 40vw;
+    margin: auto;
+    display: block;
+    top: 5vw;
+
+}
+
+
+.big--img--desc {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding-top: 6vw;
+}
+.single--project .text {
+    font-size: 1.3vw;
+}
+
+.big--img img{
+    animation-name: zoom;
+    animation-duration: 0.4s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  .close--button {
+    position: absolute;
+    top: 0.5vw;
+    right: 1vw;
+    color: #f1f1f1;
+    font-size: 1.5vw;
+    transition: 0.3s;
+  }
+  
+  .close--button:hover,
+  .close-button:focus,
+  .next--button:hover,
+  .next-button:focus,
+  .prev--button:hover,
+  .prev-button:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .prev--button {
+    position: absolute;
+    color: #f1f1f1;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    left: 12vw;
+    top: 25vw;
+  }
+
+  .next--button {
+    position: absolute;
+    color: #f1f1f1;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    left: 88vw;
+    top: 25vw;
+  }
+
+  .project .title {
+    line-height: 1vw;
+    width: 30vw;
+    text-align: left;
+    margin-left: 20vw;
+    border-bottom: 0.6vw solid rgba(255, 217, 0, 0.386);
+}
+
+  
+@media only screen and (max-width: 600px) {
+
+    .project .title {
+        width: 60%;
+        margin-left: 10vw;
+    }
+
+    .project {
+        padding-top: 25vw;
+        margin: 0px;
+    }
+
+    .single--project {
+        grid-template-columns: auto;
+        padding-top: 0vw;
+        justify-content: center;
+    }
+
+    .single--project .single--photo .image {
+        width: 80vw;
+        height: 80vw;
+        object-fit: cover;
+    }
+
+    .big--img {
+        left: 0;
+        top: 15vw;
+    } 
+    
+    .big--img img{
+        left: 0vw;
+        width: 100%;
+        height: auto;
+        margin-top: 15vw;
+    
+    }
+
+    .close--button {
+        top: 3vw;
+        right: 3vw;
+        font-size: 6vw;
+      }
+    
+    
+      .prev--button {
+        font-size: 6vw;
+        left: 3vw;
+        top: 77vw;
+      }
+    
+      .next--button {
+        font-size: 6vw;
+        left: 91vw;
+        top: 77vw;
+      }
+
+      .big--img--desc {
+        position: relative;
+        top: 1vw;
+        font-size: 5vw;
+    }
+    
+}
