@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import Navbar from './components/navbar.jsx';
 import Footer from './components/footer.jsx';
-import './components/app.css';
+import './components/styles/app.css';
 import Homepage from './homepage.jsx';
 import Portfolio from './components/portfolio.jsx';
 import SingleProject from './components/singleproject.jsx';

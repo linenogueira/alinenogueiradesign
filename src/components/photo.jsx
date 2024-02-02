@@ -1,6 +1,6 @@
 import React from 'react'
 import wiz1 from '../../public/salaLaispankow.png'
-import './photo.css'
+import '/src/components/styles/photo.css'
 
 function Photo() {
     return (

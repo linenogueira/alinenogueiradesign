@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom'; // Importar useParams
-import './singleproject.css';
+import '/src/components/styles/singleproject.css';
 // Importe todas as imagens necessárias aqui
 import wiz1 from '../../public/portfolio/clinica1.png';
 import wiz2 from '../../public/portfolio/clinica2.jpg';
@@ -9,7 +9,7 @@ import wiz3 from '../../public/portfolio/clinica3.png';
 import proj2Img1 from '../../public/portfolio/clinica3.png';
 // Importe mais imagens conforme necessário
 import { PlusOutlined, CloseOutlined, LeftOutlined, RightOutlined } from '@ant-design/icons';
-import './portfolio.css';
+import '/src/components/styles/portfolio.css';
 
 function Photo({ imageSrc }) {
   const [showImg, setShowImg] = useState(false);

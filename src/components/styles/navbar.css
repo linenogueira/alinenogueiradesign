@@ -37,7 +37,7 @@
 
 
 .navbar ul li:hover {
-    color: #FDC73E;
+    color: #cfc0c1;
     transition: linear 0.3s;
     cursor: pointer;
 }

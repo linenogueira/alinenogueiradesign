@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import './products.css';
+import '/src/components/styles/products.css';
 import wiz1 from '../../public/wiz1.png';
 import { Link } from 'react-router-dom';
 

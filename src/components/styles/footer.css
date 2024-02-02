@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    background-color: #CACACA;
+    background-color: hsla(18, 14%, 64%, 0.893);
     text-align: left;
     display: flex;
     position: relative;
@@ -27,7 +27,8 @@
 }
 
 .footer--img img{
-    object-fit: cover;
+    object-fit:cover;
+    object-position: 40% 75%;
     width: 68.7vw;
     height: 20vw;
 }

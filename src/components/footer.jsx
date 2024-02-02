@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react'
 import Map, {NavigationControl, Marker} from 'react-map-gl';
 import maplibregl from 'maplibre-gl';
-import './footer.css'
+import '/src/components/styles/footer.css'
 
 
 const Footer = forwardRef((props, ref) => {
@@ -18,7 +18,8 @@ const Footer = forwardRef((props, ref) => {
                 <p>9:00-16:00</p>
             </div>
             <div className='footer--img'>
-                <img src='https://alizahid.dev/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FukmE2ezySfqPEjUpQik9&w=3840&q=75'></img>
+                <img src='../../public/footerimage.png'
+></img>
             </div>
         </div>
     )

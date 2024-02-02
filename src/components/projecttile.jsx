@@ -1,5 +1,5 @@
 import React from 'react';
-import './products.css';
+import '/src/components/styles/products.css';
 import { Link } from 'react-router-dom';
 
 // Adicione projectId como uma prop aqui

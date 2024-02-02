@@ -3,7 +3,7 @@ import React from 'react';
 import ProjectTile from './ProjectTile'; // Certifique-se de que o caminho está correto
 import wiz1 from '../../public/wiz1.png';
 import wiz2 from '../../public/portfolio/clinica1.png'; // Exemplo de outra imagem
-import './portfolio.css';
+import '/src/components/styles/portfolio.css';
 
 function Portfolio() {
     // Adicionado um campo 'id' para cada projeto

@@ -1,5 +1,5 @@
 import React, {forwardRef} from 'react'
-import './offer.css'
+import '/src/components/styles/offer.css'
 
 const Offer = forwardRef((props, ref) => {
 
