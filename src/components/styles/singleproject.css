@@ -5,7 +5,7 @@
 }
 
 .single--project {
-    padding: 2vw 20vw;
+    padding: 2vw 11vw;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 1vw;
@@ -13,10 +13,19 @@
 }
 
 .single--project .single--photo .image {
-    width: 20vw;
-    height: auto;
-    object-fit: cover;
+  width: 25vw;
+  height: 18vw; 
+  object-fit: cover; 
 }
+.project .title h2 {
+  font-size: 1.1vw; 
+  color: #666; 
+  margin-top: 1vw; 
+  margin-bottom: 1; 
+  font-weight: normal;
+  line-height: 1.3vw; 
+}
+
 
 .big--img {
     display: block;
@@ -106,9 +115,9 @@
 
   .project .title {
     line-height: 1vw;
-    width: 30vw;
+    width: 77vw;
     text-align: left;
-    margin-left: 20vw;
+    margin-left: 11vw;
     border-bottom: 0.6vw solid #6a3446;
 }
 

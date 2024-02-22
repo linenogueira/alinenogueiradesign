@@ -1,5 +1,5 @@
 import React from 'react'
-import wiz1 from '../../public/salaLaispankow.png'
+import wiz1 from '../assets/salaLaispankow.png'
 import '/src/components/styles/photo.css'
 
 function Photo() {

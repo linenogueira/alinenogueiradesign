@@ -14,7 +14,7 @@ const About = forwardRef((props, ref) => {
                 </div>
                 <div className='column'>
                     <div className='image'>
-                    <img src='../../public/about.webp'></img>
+                    <img src='../assets/about.webp'></img>
                     </div>
                 </div>
             </div>

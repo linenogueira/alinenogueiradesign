@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { InstagramOutlined, LinkedinOutlined, MenuOutlined } from '@ant-design/icons';
-import logo from '../../public/LOGO.png';
+import logo from '../../src/assets/LOGO.png';
 import '/src/components/styles/navbar.css';
 import { Link } from 'react-router-dom';
 

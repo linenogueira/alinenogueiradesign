@@ -17,7 +17,7 @@ const Footer = forwardRef((props, ref) => {
               
             </div>
             <div className='footer--img'>
-                <img src='../../public/footerimage.png'
+                <img src='../assets/footerimage.png'
 ></img>
             </div>
         </div>

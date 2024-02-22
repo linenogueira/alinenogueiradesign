@@ -5,13 +5,15 @@
     margin: 0 20vw;
 }
 
-.portfolio .title {
+.portfolio .title {  
+    font-size: 1.1vw; 
     margin-bottom: 2vw;
     line-height: 1vw;
-    width: 30vw;
-    text-align: left;
+    width: 57vw;
+    text-align: center;
     padding-left: 2vw;
     border-bottom: 0.6vw solid #6a3446;
+    line-height: 2.5vw;
 }
 
 
