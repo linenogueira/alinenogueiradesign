@@ -50,6 +50,10 @@ function SingleProject() {
     case 'project2':
       images = [proj2Img1, proj2Img2];
       break;
+      case 'project3':
+      images = [proj2Img1, proj2Img2];
+      break;
+
     // Adicione mais cases conforme necessário para outros projetos
     default:
       images = []; // Caso padrão, se nenhum projectId corresponder

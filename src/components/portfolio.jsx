@@ -8,8 +8,10 @@ import '/src/components/styles/portfolio.css';
 function Portfolio() {
     // Adicionado um campo 'id' para cada projeto
     const projects = [
-        { id: 'dentist-clinical', img: wiz1, text: 'Dentist Clinical' },
-        { id: 'project-2', img: wiz2, text: 'Project 2' }, // Exemplo de outro projeto
+        { id: '3D models', img: wiz1, text: '3D models' },
+        { id: 'Interiors Design', img: wiz2, text: 'Interiors Design' },
+        { id: 'executive projects', img: wiz2, text: 'Executive Projects' }, // Exemplo de outro projeto
+        { id: 'interior designs ', img: wiz2, text: 'Industrial Designs' }, // Exemplo de outro projeto
         // Adicione mais projetos conforme necessário, cada um com um 'id' único
     ];
 
