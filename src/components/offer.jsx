@@ -5,8 +5,7 @@ import '/src/components/styles/offer.css';
 
 const Offer = forwardRef((props, ref) => {
     return (
-        <div ref={ref} className='offer'>
-            <h1>Oferta</h1>
+        <div ref={ref} className='offer'> 
             <Notebook />
         </div>
     );
