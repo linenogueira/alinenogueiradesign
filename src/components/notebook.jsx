@@ -15,7 +15,6 @@ import page11 from '../assets/11.png';
 import page12 from '../assets/12.png';
 
 
-// Adicione todas as suas páginas ao array
 const pages = [page1, page2, page3, page4,page5,page6,page7,page8,page9,page10,page11,page12];
 
 const Notebook = () => {

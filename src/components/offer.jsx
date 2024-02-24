@@ -1,6 +1,6 @@
 // Offer.js
 import React, {forwardRef} from 'react';
-import Notebook from './Notebook'; // Atualize o caminho conforme necessário
+import Notebook from './Notebook'; 
 import '/src/components/styles/offer.css';
 
 const Offer = forwardRef((props, ref) => {

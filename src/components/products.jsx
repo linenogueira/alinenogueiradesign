@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Products = forwardRef((props, ref) => {
     return (
         <div ref={ref} className='products'>
-            <h1>A Glimpse Into Our Work</h1>
+            <h1>A Glimpse Into My Work</h1>
             <div className='products--img'>
              
                 <div className="image-container">

@@ -1,9 +1,9 @@
 .notebook {
-    width: 100%; /* Aumenta a largura para ocupar mais espaço */
-    max-width: 1200px; /* Um valor máximo para garantir que não fique muito grande em monitores grandes */
-    height: 10vw; /* Ajusta a altura automaticamente */
-    margin: 2rem auto; /* Centraliza e adiciona uma margem superior e inferior */
+    width: 100%; 
+    max-width: 1200px; 
+    height: 10vw; 
     display: flex;
-    justify-content: center; /* Centraliza os itens flexíveis horizontalmente */
-    align-items: center; /* Centraliza os itens flexíveis verticalmente */
+    justify-content: center; 
+    align-items: center; 
+    
 }

@@ -20,9 +20,12 @@
 .project--tiles {
     display: grid;
     grid-template-columns: auto auto;
-    margin-bottom: 10vw;
+    margin-bottom: -5vw;
     gap: 5vw 0vw;
 }
+
+
+
 
 @media only screen and (max-width: 600px) {
 

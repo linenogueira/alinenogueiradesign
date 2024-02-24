@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { useParams } from 'react-router-dom'; // Importar useParams
+import { useParams } from 'react-router-dom'; 
 import '/src/components/styles/singleproject.css';
-// Importe todas as imagens necessárias aqui
+
 
 import d1 from '../3d models/3d1.png';
 import d2 from '../3d models/3d2.png';
@@ -78,9 +78,7 @@ import industry8 from '../industry/ind8.png';
 
 
 
-// Suponha que existam outros conjuntos de imagens para outros projetos
 
-// Importe mais imagens conforme necessário
 import { PlusOutlined, CloseOutlined, LeftOutlined, RightOutlined } from '@ant-design/icons';
 import '/src/components/styles/portfolio.css';
 
@@ -96,14 +94,14 @@ function Photo({ imageSrc }) {
     <div className='single--photo'>
       <div className="image-container">
         <img src={imageSrc} className="image" />
-        <div className="text" onClick={closeImage}><PlusOutlined style={{fontSize: '1.5vw'}}/></div>
+        <div className="text" onClick={closeImage}><PlusOutlined style={{fontSize: '2vw'}}/></div>
         {showImg && (
           <div className='big--img'>
             <span className='close--button'><CloseOutlined onClick={closeImage} /></span>
             <span className='prev--button'><LeftOutlined /></span>
             <img src={imageSrc} alt='Big Image' />
             <span className='next--button'><RightOutlined /></span>
-            <p className='big--img--desc'>Projekt</p>
+          
           </div>
         )}
       </div>
@@ -112,7 +110,7 @@ function Photo({ imageSrc }) {
 }
 
 function SingleProject() {
-  const { projectId } = useParams(); // Usar useParams para obter o projectId da URL
+  const { projectId } = useParams(); 
   let images;
 
   // Decidir quais imagens exibir com base no projectId
@@ -130,7 +128,7 @@ function SingleProject() {
       images = [industry1,industry2,industry3,industry4,industry5,industry6,industry7,industry8];
       break;
 
-    // Adicione mais cases conforme necessário para outros projetos
+  
     default:
       images = []; // Caso padrão, se nenhum projectId corresponder
   }
@@ -138,7 +136,7 @@ function SingleProject() {
   return (
     <div className='project'>
         <div className='title'>
-            <h1>Explore Our Portfolio</h1>
+            <h1>Explore My Portfolio</h1>
             <h2>Here we showcase only the projects for which we have received explicit permission from 
               our clients for publication. Many, particularly in the industrial sector, choose to keep 
               their projects confidential. Our office prioritizes maintaining our clients' trust and

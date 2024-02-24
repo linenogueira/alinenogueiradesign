@@ -1,6 +1,5 @@
-
 import React from 'react';
-import ProjectTile from './ProjectTile'; // Certifique-se de que o caminho está correto
+import ProjectTile from './ProjectTile'; 
 import capa1 from '../assets/capa1.png';
 import capa2 from '../assets/capa2.png';
 import capa3 from '../assets/capa3.png';
@@ -14,7 +13,6 @@ function Portfolio() {
         { id: 'interiorsDesign', img:capa1 ,  },
         { id: 'executiveProjects', img: capa3,  }, 
         { id: 'industrialDesigns ', img: capa4, },
-    
     ];
 
     return (
@@ -25,8 +23,10 @@ function Portfolio() {
             </div>
             <div className='project--tiles'>
                 {projects.map((project, index) => (
-                    // Passando 'projectId' como uma prop para 'ProjectTile'
-                    <ProjectTile key={index} imageSrc={project.img} text={project.text} projectId={project.id} />
+                  
+                    <a href={`/project/${project.id}`} key={index} className="project-tile-link">
+                        <ProjectTile imageSrc={project.img} text={project.text} projectId={project.id} />
+                    </a>
                 ))}
             </div>
         </div>

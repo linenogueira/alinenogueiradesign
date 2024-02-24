@@ -56,8 +56,8 @@
 .products button {
     padding: 1vw;
     background-color: white;
-    border: 1px solid black;
-    color: black;
+    border: 1.5px solid #6a3446;
+    color: #6a3446;
     border-radius: 5px;
     width: 15vw;
     margin-top: 3vw;
@@ -67,8 +67,8 @@
 .products button:hover {
     transition: linear 0.2s;
     cursor: pointer;
-    border: 1px solid #FDC73E;
-    color: #FDC73E;
+    border: 1.5px solid  #cfc0c1;
+    color: #cfc0c1;
 
 }
 

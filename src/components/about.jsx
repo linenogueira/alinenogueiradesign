@@ -1,12 +1,13 @@
 import React from 'react'
 import '/src/components/styles/about.css'
 import {forwardRef} from 'react'
+import aboutImage from '../assets/aboutme.png';
 
 const About = forwardRef((props, ref) => {
 
     return (
         <div ref={ref} className='about'>
-                <h1>About Us</h1>
+                <h1>About Me</h1>
             <div className='row'>
                 <div className='about--inf'>
                     <h2>Aline Nogueira</h2>
@@ -14,7 +15,7 @@ const About = forwardRef((props, ref) => {
                 </div>
                 <div className='column'>
                     <div className='image'>
-                    <img src='../assets/about.webp'></img>
+                    <img src={aboutImage} alt='aboutmephoto' />
                     </div>
                 </div>
             </div>
@@ -22,7 +23,7 @@ const About = forwardRef((props, ref) => {
     )
 })
 
-const about = <p>With a notable background in industrial and technical design, this professional shines in creating and updating technical drawings, particularly for oil platforms. Her expertise extends to drafting project proposals, refining existing documentation, and ensuring the precision of drawings through onsite visits to offshore units. Skilled in AutoCAD, SketchUP, and various web development tools, she merges creative insight with a keen eye for detail, vital in both design and project development. Her adaptable and collaborative style proves effective in dynamic and challenging work environments..</p>
+const about = <p>With over 12 years in industrial and technical design, I'm a Brazilian professional passionate about crafting precision in technical drawings, especially for oil platforms. Skilled in AutoCAD, SketchUP, and various web tools, I seamlessly merge creativity with an eye for detail. My commitment to excellence shines through in project proposals and refining documentation. What makes me unique is my adaptability and collaborative spirit, thriving in dynamic work environments. I take pride in delivering designs that not only meet but exceed expectations, contributing passionately to the success of each project.</p>
 
 
 export default About
