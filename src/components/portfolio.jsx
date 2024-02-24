@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectTile from './ProjectTile'; 
+import ProjectTile from './projecttile'; 
 import capa1 from '../assets/capa1.png';
 import capa2 from '../assets/capa2.png';
 import capa3 from '../assets/capa3.png';
