@@ -1,6 +1,6 @@
 // Offer.js
 import React, {forwardRef} from 'react';
-import Notebook from './Notebook'; 
+import Notebook from './notebook'; 
 import '/src/components/styles/offer.css';
 
 const Offer = forwardRef((props, ref) => {
