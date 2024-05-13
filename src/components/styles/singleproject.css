@@ -20,11 +20,20 @@
 .project .title h2 {
   font-size: 1.1vw; 
   color: #666; 
-  margin-top: 1vw; 
+  margin-top:  0.1vw ; 
   margin-bottom: 1; 
   font-weight: normal;
   line-height: 1.3vw; 
 }
+.project .title h1 {
+  font-size: 3.1vw; 
+  color: black;
+  margin-top:  -2.3vw ; 
+  margin-bottom: 1; 
+  font-weight: normal;
+  line-height: 1.0vw; 
+}
+
 
 
 .big--img {
@@ -124,10 +133,24 @@
   
 @media only screen and (max-width: 600px) {
 
+  
     .project .title {
-        width: 60%;
-        margin-left: 10vw;
-    }
+      width: 90%; 
+      margin-left: 5%; /
+      text-align: center; /
+            padding: 1em 0; 
+  }
+
+  .project .title h1,
+  .project .title h2 {
+      font-size: 1.0em;
+      line-height: 1.4em; 
+      margin-top: 0.5em; 
+      margin-bottom: 0.5em; 
+  }
+}
+
+
 
     .project {
         padding-top: 25vw;

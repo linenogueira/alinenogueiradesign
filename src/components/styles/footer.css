@@ -10,7 +10,7 @@
 
 .footer--info {
    
-    padding: 0 10vw;
+    padding: 0 5vw;
     height: 100%; 
     
 }
@@ -27,7 +27,9 @@
 .footer p {
     font-size: 1.2vw;
     margin-top: 1.5vw;
-    margin-bottom: 0;
+    margin-bottom: 1vw;
+    margin-right: 0.75vw;
+    margin-left: 0.75vw
 
  
 }
@@ -42,13 +44,14 @@
 @media only screen and (max-width: 600px) {
 
     .footer {
-        text-align: center;
+        text-align: left;
         line-height: 2vw;
     }
     .footer h1 {
-        font-size: 6vw;
-        line-height: 5vw;
+        font-size: 8vw;
+        line-height: 10vw;
         margin-top: 8vw;
+        margin-bottom: 5vw;
     
     }
     
@@ -58,7 +61,11 @@
     }
     
     .footer p {
-        font-size: 4vw;
+        font-size: 1.0em; /* Aumenta o tamanho da fonte para melhor legibilidade */
+        line-height: 1.4em; /* Ajusta o espaçamento entre linhas */
+        margin-top: 0.5em; /* Adiciona uma margem superior */
+        margin-bottom: 0.5em;
+        margin-left: -3.5em ;
     }
 
     .footer--info {

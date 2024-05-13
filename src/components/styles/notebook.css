@@ -1,9 +1,7 @@
 .notebook {
-    width: 100%; 
-    max-width: 1200px; 
-    height: 10vw; 
+    width: 100%;
+    max-width: 1400px; /* mantém o limite máximo de largura */
     display: flex;
     justify-content: center; 
-    align-items: center; 
-    
+    align-items: center;
 }

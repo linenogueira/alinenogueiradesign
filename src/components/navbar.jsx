@@ -35,11 +35,11 @@ function Navbar({ aboutRef, offerRef, portfolioRef, contactRef }) {
               <li onClick={() => {handleScroll(portfolioRef); if (window.innerWidth < 600) setShowMenu(!showMenu)}}>Portfolio</li>
               <li onClick={() => {handleScroll(offerRef); if (window.innerWidth < 600) setShowMenu(!showMenu)}}>Services</li>
               <li onClick={() => {handleScroll(contactRef); if (window.innerWidth < 600) setShowMenu(!showMenu)}}>Contact</li>
-              <li>
-                <a href="https://www.linkedin.com/in/linenogueira" target="_blank" rel="noopener noreferrer">
+              {/*<li>
+                 <a href="https://www.linkedin.com/in/linenogueira" target="_blank" rel="noopener noreferrer">
                   <LinkedinOutlined className="linkedin" />
-                </a>
-              </li>
+                 </a>
+          </li>*/}
             </ul>
           )}
           <li className="more" onClick={() => setShowMenu(!showMenu)}>

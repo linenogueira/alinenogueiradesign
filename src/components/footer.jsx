@@ -11,9 +11,10 @@ const Footer = forwardRef((props, ref) => {
                 <h1>Contact Me</h1>
                 <p>Aline Manhães Nogueira</p>
                 <p>+49 172 6304066</p>
+                <p>+351 939 966 083 </p>
                 <p>linemanhaes@gmail.com</p>
                 <p>@linenogueira</p>
-                <p>Berlin - Germany</p>
+                <p>Lisboa | Portugal  -  Berlin | Germany</p>
               
             </div>
             <div className='footer--img'>
