@@ -6,7 +6,7 @@ import capa3 from '../assets/capa3.png';
 import capa4 from '../assets/capa4.png';
 import '/src/components/styles/portfolio.css';
 import { Link } from 'react-router-dom';
-
+import { useNavigate } from 'react-router-dom';
 
 function Portfolio() {
 
@@ -19,6 +19,7 @@ function Portfolio() {
 
     return (
         <div className='portfolio'>
+             <BackButton /> {/* Inclusão do botão de voltar */}
             <div className='title'>
                 <h1>"Transforming visions into reality, 
                     each project is a window to the future we build together."</h1>
@@ -33,6 +34,14 @@ function Portfolio() {
             </div>
         </div>
     );
+    function BackButton() {
+        const navigate = useNavigate();
+      
+        return (
+          <button onClick={() => navigate(-1)}>Voltar</button>
+        );
+      }
+      
 }
 
 export default Portfolio;

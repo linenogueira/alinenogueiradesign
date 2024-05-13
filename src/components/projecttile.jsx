@@ -10,7 +10,7 @@ function ProjectTile({ imageSrc, text, projectId }) {
                 <img src={imageSrc} className="image" />
                 
                 <Link to={`/project/${projectId}`}>
-                    <div className="text">{text}</div>
+                    <div className="text">{text} </div>
                 </Link>
             </div>
         </div>

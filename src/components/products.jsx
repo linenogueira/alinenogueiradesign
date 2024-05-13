@@ -4,9 +4,11 @@ import d1 from '../3d models/3d1.png';
 import industry1 from '../industry/ind1.png';
 import { Link } from 'react-router-dom';
 
+
 const Products = forwardRef((props, ref) => {
     return (
         <div ref={ref} className='products'>
+         
             <h1>A Glimpse Into My Work</h1>
             <div className='products--img'>
              
@@ -32,6 +34,7 @@ const Products = forwardRef((props, ref) => {
             </div>
         </div>
     );
+  
 });
 
 export default Products;

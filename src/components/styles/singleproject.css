@@ -29,7 +29,7 @@ object-fit: cover;
   margin-top: -1.5vw; /* Ajustado para uma margem negativa menor */
   margin-bottom: 2vw; /* Reduzido para uma menor margem */
   font-weight: normal;
-  line-height: 0.9vw; /* Ajustado para uma linha mais próxima */
+  line-height: 0.1vw; /* Ajustado para uma linha mais próxima */
 }
 
 .big--img {
@@ -123,9 +123,20 @@ object-fit: cover;
     width: 77vw;
     text-align: left;
     margin-left: 11vw;
-    border-bottom: 0.6vw solid #6a3446;
+    border-bottom: 0.3vw solid #6a3446;
 }
 
+button {
+  padding: 5px 20px;
+  background-color: #6a3446;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+}
+button:hover {
+  background-color: #0056b3;
+}
   
 @media only screen and (max-width: 600px) {
 

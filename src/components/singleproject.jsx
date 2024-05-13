@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom'; 
+import { useNavigate } from 'react-router-dom';
 import '/src/components/styles/singleproject.css';
 
 
@@ -135,6 +136,10 @@ function SingleProject() {
 
   return (
     <div className='project'>
+         <BackButton /> {/* Inclusão do botão de voltar */}
+      <div className='title'>
+        {/* Título e descrição */}
+      </div>
         <div className='title'>
             <h1>Explore My Portfolio</h1>
             <h2>Here we showcase only the projects for which we have received explicit permission from 
@@ -150,5 +155,16 @@ function SingleProject() {
     </div>
   );
 }
+
+
+function BackButton() {
+  const navigate = useNavigate();
+
+  return (
+    <button onClick={() => navigate(-1)}>Voltar</button>
+  );
+}
+
+
 
 export default SingleProject;
