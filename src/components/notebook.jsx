@@ -19,7 +19,7 @@ const pages = [page1, page2, page3, page4,page5,page6,page7,page8,page9,page10,p
 
 const Notebook = () => {
     return (
-        <HTMLFlipBook width={300} height={400}>
+        <HTMLFlipBook width={380} height={450}>
             {pages.map((page, index) => (
                 <div className="demoPage" key={index}>
                     <img src={page} alt={`Page ${index + 1}`} style={{width: '100%', height: '100%'}} />

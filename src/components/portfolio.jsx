@@ -13,7 +13,7 @@ function Portfolio() {
     const projects = [
         { id: '3Dmodels', img: capa2,  },
         { id: 'interiorsDesign', img:capa1 ,  },
-        { id: 'executiveProjects', img: capa3,  }, 
+        { id: 'executiveProjects', img: capa3,}, 
         { id: 'industrialDesigns ', img: capa4, },
     ];
 

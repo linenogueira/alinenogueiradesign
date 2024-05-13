@@ -1,5 +1,5 @@
 .offer {
-    padding: 1.0vw 10vw 10vw 20vw;
+    padding: 1.0vw 10vw 10vw 19vw;
     margin-top: 0vw;
     text-align: left;
 }
@@ -11,7 +11,7 @@
         margin-top: 10vw;
     }
     .offer {
-        padding: 20vw 10vw 10vw 10vw;
+        padding: 20vw 10vw 10vw 1vw;
     }
 
 }
