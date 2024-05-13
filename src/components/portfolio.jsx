@@ -5,6 +5,8 @@ import capa2 from '../assets/capa2.png';
 import capa3 from '../assets/capa3.png';
 import capa4 from '../assets/capa4.png';
 import '/src/components/styles/portfolio.css';
+import { Link } from 'react-router-dom';
+
 
 function Portfolio() {
 
@@ -24,9 +26,9 @@ function Portfolio() {
             <div className='project--tiles'>
                 {projects.map((project, index) => (
                   
-                    <a href={`/project/${project.id}`} key={index} className="project-tile-link">
+                    <Link to={`/project/${project.id}`} className="project-tile-link">
                         <ProjectTile imageSrc={project.img} text={project.text} projectId={project.id} />
-                    </a>
+                    </Link>
                 ))}
             </div>
         </div>
